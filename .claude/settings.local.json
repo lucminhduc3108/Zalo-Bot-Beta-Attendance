@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:bot.zapps.me)",
+      "WebSearch",
+      "Bash(npm install:*)",
+      "Bash(if exist:*)",
+      "Bash(dir /b \"c:\\\\Users\\\\admin\\\\Desktop\\\\Chấm công qua Zalo\")",
+      "Bash(curl -X POST \"https://bot-api.zaloplatforms.com/bot3476548592585890629:WBSXwXukenJgcBAxhQEcQwOWcATSuAQAwOSceJkySzitRpXIqkOrpdwjyBHilAfq/setWebhook\" -H \"Content-Type: application/json\" -d \"{\"\"url\"\": \"\"https://jacoby-loral-outwardly.ngrok-free.dev/webhook\"\", \"\"secret_token\"\": \"\"your_secret_token_here\"\"}\")",
+      "Bash(curl -s \"http://localhost:3000/set-webhook?url=https://jacoby-loral-outwardly.ngrok-free.dev/webhook\")",
+      "Bash(curl -s \"https://jacoby-loral-outwardly.ngrok-free.dev/webhook\" -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -sk \"https://jacoby-loral-outwardly.ngrok-free.dev/webhook\" -w \"\\\\n%{http_code}\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)"
+    ]
+  }
+}
